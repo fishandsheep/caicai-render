@@ -1,6 +1,6 @@
-FROM nangohq/nango-server:latest
+FROM qinshower/caicai-ubuntu:1.0
 
-ARG RENDER_EXTERNAL_URL
-ENV NANGO_SERVER_URL=$RENDER_EXTERNAL_URL
+ARG OPENAI_KEY
+ENV OPENAI_KEY=$OPENAI_KEY
 
-CMD [ "node", "packages/server/dist/server.js" ]
+CMD ["/app/caicai-1.0.0-SNAPSHOT-runner"]
