@@ -1,4 +1,4 @@
-FROM qinshower/caicai
+FROM qinshower/caicai:1.0-java
 
 ARG OPENAI_KEY
 ENV OPENAI_KEY=$OPENAI_KEY
