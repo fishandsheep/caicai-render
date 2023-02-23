@@ -1,1 +1,1 @@
-FROM qinshower/caicai:1.0-java
+FROM qinshower/caicai:2.0-java
